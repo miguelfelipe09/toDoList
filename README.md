@@ -19,9 +19,11 @@ A aplicação To-Do List permite aos usuários criar, visualizar, atualizar e ex
 - ReactJs
 
 # Como executar o projeto
-## Back end
 
-```
+## Back end
+pré-requisitos: Node e MongoDB Community Server 
+
+```bash
 # clonar repositório
 git clone https://github.com/miguelfelipe09/toDoList.git
 
@@ -33,9 +35,10 @@ node server.js
 ```
 
 # Front end
+Pré-requisitos: npm
 
-```
-# entrar na pasta do peojeto frontend
+```bash
+# entrar na pasta do projeto frontend
 cd frontend
 
 # instalar dependências
