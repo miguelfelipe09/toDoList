@@ -1,55 +1,102 @@
-# toDoList
+<h1 align="center">✅ ToDo List — Gerenciador de Tarefas</h1>
 
- # Sobre o projeto
-A aplicação To-Do List permite aos usuários criar, visualizar, atualizar e excluir tarefas. A interface foi desenvolvida em React, oferecendo uma experiência de usuário dinâmica e responsiva. O backend foi construído com Node.js e Express, gerenciando as requisições e conectando-se a um banco de dados MongoDB para armazenar as tarefas.
+<p align="center">
+  Uma aplicação completa para organização de tarefas, utilizando React no frontend e Node.js + MongoDB no backend 🚀
+</p>
 
-## Layout
-![Image Project](https://github.com/miguelfelipe09/toDoList/blob/main/frontend/public/images/projectImage.png)
+---
 
-# Tecnologias Utilizadas
-## Backend
-- Node JS
-- Express
-- MongoDB
+### 📌 Tecnologias Utilizadas
 
-## Frontend
-- HTML
-- CSS
-- Javascript
-- ReactJs
+#### 🖥️ Frontend
+<div>
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 
-# Como executar o projeto
+#### 🛠️ Backend
+<div>
+  <img align="center" alt="NodeJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Express" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
+  <img align="center" alt="MongoDB" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
+</div>
 
-## Back end
-pré-requisitos: Node e MongoDB Community Server 
+---
+
+### ✨ Funcionalidades
+
+✔ Criar novas tarefas  
+✔ Visualizar lista de tarefas  
+✔ Editar tarefas  
+✔ Marcar como concluídas  
+✔ Excluir tarefas  
+✔ API REST integrada ao frontend  
+✔ Dados persistidos no MongoDB  
+✔ Interface dinâmica e responsiva com React
+
+---
+
+### 🖼️ Layout
+
+![Imagem do Projeto](frontend/public/images/projectImage.png)
+
+> *Caso a imagem não carregue no seu Wi-Fi: é um bloqueio temporário do GitHub ao seu IP (erro 429). No celular/4G ela funciona normalmente ✅*
+
+---
+
+## 🚀 Como executar o projeto na sua máquina
+
+#### 🔹 Clonar o projeto
 
 ```bash
-# clonar repositório
 git clone https://github.com/miguelfelipe09/toDoList.git
-
-# entrar na pasta do peojeto backend
-cd backend
-
-# executar o projeto
-node server.js
+cd toDoList
 ```
 
-# Front end
-Pré-requisitos: npm
+---
+
+#### 🔹 Backend
+
+#### 📌 Pré-requisitos
+- Node.js instalado ✅
+- MongoDB Atlas ou MongoDB Local ✅
+
+---
 
 ```bash
-# entrar na pasta do projeto frontend
-cd frontend
+# entrar na pasta do backend
+cd backend
 
 # instalar dependências
 npm install
 
-# executar o projeto
+# criar e configurar o arquivo .env
+MONGO_URI=sua_string_de_conexao_mongodb
+PORT=5000
+
+# executar o servidor
+npm start
+```
+
+---
+
+```bash
+# entrar na pasta do frontend
+cd ../frontend
+
+# instalar dependências
+npm install
+
+# executar aplicação
 npm run dev
 ```
 
-# Autor
+---
+
+👨‍💻 Autor
 
 Miguel Felipe da Silva
 
-https://www.linkedin.com/in/miguel-felipe-aab18523a/
+📎 LinkedIn: https://www.linkedin.com/in/miguel-felipe-aab18523a/
