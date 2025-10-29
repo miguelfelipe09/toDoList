@@ -42,8 +42,6 @@
 
 ![Imagem do Projeto](frontend/public/images/projectImage.png)
 
-> *Caso a imagem não carregue no seu Wi-Fi: é um bloqueio temporário do GitHub ao seu IP (erro 429). No celular/4G ela funciona normalmente ✅*
-
 ---
 
 ## 🚀 Como executar o projeto na sua máquina
